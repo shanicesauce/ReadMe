@@ -38,7 +38,8 @@ If your README is long, add a table of contents to make it easy for users to fin
     
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Credits](#authors)
+- [Technologies](#technologies)
 - [License](#license)
 
 ## Installation
@@ -49,7 +50,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 ${usage}
 instructions for usage
 
-##Technologies Used
+## Technologies Used
 ${languages.join(' , ')}
 
 ## Authors
