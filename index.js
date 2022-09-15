@@ -43,8 +43,7 @@ inquirer
      } ,
 ])
 .then((answers) =>{
-   console.log(answers);
-   fs.writeFile ('./README.md', generatePage(answers), (err) => {
+   fs.writeFile ('./newREADME.md', generatePage(answers), (err) => {
       if (err) {  
        console.log(err)
       } else {

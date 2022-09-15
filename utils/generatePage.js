@@ -51,7 +51,7 @@ ${usage}
 instructions for usage
 
 ## Technologies Used
-${languages.join(' , ')}
+${languages.join(' \n ')}
 
 ## Authors
 - ${author}
