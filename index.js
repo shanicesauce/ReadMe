@@ -33,13 +33,13 @@ inquirer
       type: 'checkbox',
       name: 'languages',
       message: 'What did you build this project with? (check all that apply)',
-      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+      choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery','MongoDb', 'Bootstrap', 'Node', 'React','Webpack']
    } ,
     {
         type: 'list',
         name: 'license',
         message: 'What did you build this project with? (check all that apply)',
-        choices: ['MIT', 'Apache', 'GNU', 'None']
+        choices: ['MIT', 'Apache', 'GNU', 'ISC', 'None']
      } ,
 ])
 .then((answers) =>{
